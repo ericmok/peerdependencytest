@@ -47,9 +47,9 @@ in different contexts, they may refer to different things.
 **Run example1.js to see the demo.**
 
 ####Observation
-The values do not sync up.
+The values mutated do not sync up.
 
-
+=====
 
 ### Example 2: Peer dependencies
 
@@ -75,8 +75,8 @@ Yes
 ```
 
 ####Experiment
-* In `example2.js`, I `require('animal')`. 
-* In `dog/index.js`, I `require('animal')`.
+* In `example2.js`, `require('animal')`. 
+* In `dog/index.js`, `require('animal')`.
 * Module `dog` stores a reference to a mutatable variable.
 
 * I mutate it in example2.js. 
@@ -85,6 +85,6 @@ Yes
 **Run example2.js to see the demo.**
 
 ####Observation
-The values sync up.
+The values mutated sync up.
 
 
