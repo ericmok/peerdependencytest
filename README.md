@@ -49,7 +49,7 @@ The values do not sync up.
 
 
 
-#### Example 2
+#### Example 2: Peer dependencies
 
 ######Question
 If I require a module in 2 different contexts and mutate the module
