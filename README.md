@@ -38,12 +38,12 @@ in different contexts, they may refer to different things.
 ======
 
 #####Experiment
--In `example1.js`, `require('a')`. 
--In `b/index.js`, `require('a')`.
--Module `a` stores a reference to a mutatable variable.
+* In `example1.js`, `require('a')`. 
+* In `b/index.js`, `require('a')`.
+* Module `a` stores a reference to a mutatable variable.
 
--I mutate it in example1.js. 
--Then I access the reference of `a` through `b`'s module and mutate it
+* I mutate it in example1.js. 
+* Then I access the reference of `a` through `b`'s module and mutate it
 
 **Run example1.js to see the demo.**
 
@@ -78,12 +78,12 @@ Yes
 ======
 
 #####Experiment
--In `example2.js`, I `require('animal')`. 
--In `dog/index.js`, I `require('animal')`.
--Module `dog` stores a reference to a mutatable variable.
+* In `example2.js`, I `require('animal')`. 
+* In `dog/index.js`, I `require('animal')`.
+* Module `dog` stores a reference to a mutatable variable.
 
--I mutate it in example2.js. 
--Then I access the reference of `animal` through `dog`'s module and mutate it
+* I mutate it in example2.js. 
+* Then I access the reference of `animal` through `dog`'s module and mutate it
 
 **Run example2.js to see the demo.**
 
