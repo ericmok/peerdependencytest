@@ -6,6 +6,7 @@ do they refer to the same module?
 
 This is a demo to confirm my suspicions.
 
+More reading material: [Peer Dependencies](http://blog.nodejs.org/2013/02/07/peer-dependencies/)
 
 ### Example 1: Nested dependencies
 
