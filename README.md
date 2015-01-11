@@ -8,6 +8,8 @@ This is a demo to confirm my suspicions.
 
 More reading material: [Peer Dependencies](http://blog.nodejs.org/2013/02/07/peer-dependencies/)
 
+Peer dependencies is a contentious topic: [npm issue #5080](https://github.com/npm/npm/issues/5080)
+
 ### Example 1: Nested dependencies
 
 ####Question
